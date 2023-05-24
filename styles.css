@@ -6,18 +6,20 @@ body {
 
 h1 {
   border-radius: 5px;
-  padding: 10px;
-  color: rgb(239, 161, 71);
-  background-color: rgb(254, 254, 232);
+  padding: 15px;
+  color: rgb(77, 29, 96);
+  background-color: rgb(247, 233, 252);
   justify-content: center;
   display: flex;
   margin: 20px;
 }
 
 .question1 {
-  border-radius: 5px;
-  color: rgb(255, 0, 115);
-  background-color: rgb(245, 242, 238);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: yellow;
+  color: rgb(4, 0, 255);
+  background-color: rgb(255, 254, 243);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +28,7 @@ h1 {
 }
 
 button {
-  width: 70px;
+  width: 120px;
   height: 60px;
   border-style: none;
   border-radius: 10px;
@@ -41,7 +43,7 @@ ul.categories {
   list-style-type: none;
   display: flex;
   align-self: self-start;
-  margin-top: 40px;
+  margin-top: 50px;
   gap: 10px;
   color: rgb(189, 16, 237);
 }
@@ -52,9 +54,10 @@ li {
 }
 
 .question2 {
-  border-radius: 5px;
-  color: rgb(255, 0, 115);
-  background-color: rgb(245, 242, 238);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(131, 245, 131);
+  background-color: rgb(246, 255, 244);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,9 +66,10 @@ li {
 }
 
 .question3 {
-  border-radius: 5px;
-  color: rgb(255, 0, 115);
-  background-color: rgb(245, 242, 238);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(166, 242, 251);
+  background-color: rgb(244, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,13 +84,13 @@ footer {
   right: 60px;
   display: flex;
   justify-content: space-around;
-  background-color: aqua;
+  background-color: rgb(247, 233, 252);
   padding: 10px;
   border-radius: 5px;
 }
 
 h2 {
-  color: rgb(239, 71, 149);
+  color: rgb(99, 237, 13);
   bottom: 0;
   left: 60px;
   right: 60px;
@@ -109,7 +113,26 @@ p {
   display: flex;
   justify-content: flex-start;
   padding: 10px;
-  color: rgb(0, 235, 157);
+  color: rgb(206, 166, 251);
+}
+
+main {
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2,
+h3,
+p,
+img,
+.checkbox {
+  margin: 20px;
+}
+
+.aboutme {
+  border-radius: 10px;
+  background-color: rgb(255, 254, 243);
 }
 
 img {
