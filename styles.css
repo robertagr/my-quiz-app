@@ -28,7 +28,9 @@ h1 {
 button {
   width: 70px;
   height: 60px;
-  border-style: double;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(183, 253, 253);
 }
 
 button:active {
@@ -40,8 +42,8 @@ ul.categories {
   display: flex;
   align-self: self-start;
   margin-top: 40px;
-  gap: 5px;
-  color: brown;
+  gap: 10px;
+  color: rgb(189, 16, 237);
 }
 
 li {
@@ -72,11 +74,46 @@ li {
 }
 
 footer {
-  background-color: rgb(254, 254, 232);
-  height: 50px;
-  text-align: center;
-  padding: 10px;
-  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 60px;
+  right: 60px;
   display: flex;
   justify-content: space-around;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: rgb(239, 71, 149);
+  bottom: 0;
+  left: 60px;
+  right: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+h3 {
+  color: blueviolet;
+  padding: 5px;
+}
+
+p {
+  color: rgb(150, 225, 166);
+  padding: 5px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  color: rgb(0, 235, 157);
+}
+
+img {
+  width: 30%;
+  border-radius: 40px;
+  padding: 5px;
 }
