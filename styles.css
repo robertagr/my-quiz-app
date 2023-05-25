@@ -1,7 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
-  margin: 0 auto;
+  padding: 10px;
+  margin: 0;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
   background-color: rgb(247, 233, 252);
   justify-content: center;
   display: flex;
-  margin: 20px;
+  margin: 0px;
 }
 
 .question1 {
@@ -23,7 +23,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   margin-top: 40px;
 }
 
@@ -65,6 +65,13 @@ li {
   margin-top: 40px;
 }
 
+div.question2 a,
+div.question1 a,
+div.question3 a {
+  margin-left: 90%;
+  margin-top: -1%;
+}
+
 .question3 {
   border-radius: 10px;
   border-style: solid;
@@ -80,8 +87,8 @@ li {
 footer {
   position: fixed;
   bottom: 0;
-  left: 60px;
-  right: 60px;
+  left: 10px;
+  right: 10px;
   display: flex;
   justify-content: space-around;
   background-color: rgb(247, 233, 252);
@@ -115,6 +122,8 @@ p {
   padding: 10px;
   color: rgb(206, 166, 251);
 }
+
+/* PROFILE PAGE */
 
 main {
   margin: 20px;
