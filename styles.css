@@ -149,3 +149,18 @@ img {
   border-radius: 40px;
   padding: 5px;
 }
+
+.selected {
+  background-color: rgb(42, 165, 89);
+  color: green;
+}
+
+.hidden {
+  display: none;
+  text-align: center;
+}
+
+.show {
+  display: flexbox;
+  padding-top: 20px;
+}
