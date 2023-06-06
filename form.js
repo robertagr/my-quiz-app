@@ -28,3 +28,24 @@ form.addEventListener("submit", (e) => {
         </div>
 `;
 });
+
+// Text counter
+
+const yourQuestion = document.getElementById("your_question");
+const questionCounter = document.getElementById("questionCounter");
+
+const yourAnswer = document.getElementById("your_answer");
+const answerCounter = document.getElementById("answerCounter");
+
+function updateCharacterCount(text, counter) {
+  const remainingCharacters = text.maxLength - text.value.length;
+  counter.textContent = `${remainingCharacters} characters remaining`;
+}
+
+yourQuestion.addEventListener("input", () => {
+  updateCharacterCount(yourQuestion, questionCounter);
+});
+
+yourAnswer.addEventListener("input", () => {
+  updateCharacterCount(your_answer, answerCounter);
+});

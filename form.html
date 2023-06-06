@@ -22,12 +22,14 @@
         <section data-js="section-card" id="test">
              <form id="form" data-js="form" class="section-card">
 
-                <label for="your_answer">Your answer:</label>
-                <textarea name="your_answer" id="your_answer" cols="50" rows="5"></textarea>
-                
                 <label for="your_question">Your question:</label>
-                <textarea name="your-question" id="your_question" cols="50" rows="5"></textarea>
-                
+                <textarea name="your-question" id="your_question" cols="50" rows="5" maxlength="150"></textarea>
+                <span class="questionCounter" id="questionCounter"></span>
+
+                <label for="your_answer">Your answer:</label>
+                <textarea name="your_answer" id="your_answer" cols="50" rows="5" maxlength="76"></textarea>
+                <span class="answerCounter" id="answerCounter"></span>
+
                 <label for="tag">Tag:</label>
                 <input type="text" id="tag"></input>
                 
