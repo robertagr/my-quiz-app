@@ -10,7 +10,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script src="./index.js" defer></script>
+    <!-- <script src="./index.js" defer></script>  -->
+    <script src="./form.js" defer></script>
   </head>
 
   <body>
@@ -18,30 +19,23 @@
       <h1>ADD CARDS</h1>
     </header>
     <main>
-        <form>
-            <section class="section-card">
-                <label for="your-answer">Your answer:</label>
-                <div>
-                    <textarea></textarea>
-                </div> 
+        <section data-js="section-card" id="test">
+             <form id="form" data-js="form" class="section-card">
 
-                <label for="your-question">Your question:</label>
-
-                <div>
-                <textarea></textarea>
-                </div> 
+                <label for="your_answer">Your answer:</label>
+                <textarea name="your_answer" id="your_answer" cols="50" rows="5"></textarea>
                 
-                    <label for="tag">Tag:</label>
-                    <div>
-                        <input type="text"></input>
-                    </div> 
-                    
-                    <div>
-                        <input type="button" value="Submit!" />
-                      </div>
+                <label for="your_question">Your question:</label>
+                <textarea name="your-question" id="your_question" cols="50" rows="5"></textarea>
+                
+                <label for="tag">Tag:</label>
+                <input type="text" id="tag"></input>
+                
+                <label for="submit"></label>
+                <button type="submit" id="submit" data-js="buttonSubmit">submit</button>        
 
-            </section>
-</form>
+             </form>
+         </section>
 
     </main>
     <footer>
