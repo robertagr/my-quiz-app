@@ -192,6 +192,7 @@ span#answerCounter.answerCounter {
   text-align: right;
   color: gray;
   font-size: small;
+  width: 80%;
 }
 
 button#submit {
@@ -203,4 +204,43 @@ label {
   color: rgb(150, 225, 166);
   padding: 8px;
   font-weight: bold;
+  font-size: large;
+}
+
+#navbutton:hover {
+  transform: scale(1.4);
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.4);
+}
+
+#tag {
+  display: flex;
+  align-content: center;
+  height: 30px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-color: rgb(241, 241, 241);
+}
+
+textarea {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-color: rgb(206, 204, 204);
+}
+
+#submit {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: medium;
+  color: rgb(17, 0, 255);
+  background-color: aquamarine;
+}
+
+#submit:active {
+  background-color: rgb(254, 228, 255);
 }
