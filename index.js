@@ -4,12 +4,11 @@ bookmarkQuestion1.addEventListener("click", () => {
 });
 
 const button = document.querySelector("button");
-const showAnswer = document.querySelector('[ data-js="show"]');
+const showAnswer = document.querySelector('[data-js="show"]');
 
 button.addEventListener("click", () => {
   const initialText = "Show Answer";
-  showAnswer.classList.toggle("hidden");
-
+  showAnswer.classList.toggle("card-answer--active");
   if (button.textContent.includes(initialText)) {
     button.textContent = "Hide Answer";
   } else {
@@ -18,16 +17,17 @@ button.addEventListener("click", () => {
 });
 
 // FORM
-const form = document.querySelector('[data-js="form"]');
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
 
-  // Read the entered data from the input fields
-  const answerInput = document.getElementById("your-answer");
-  const questionInput = document.getElementById("your-question");
-  const tagsInput = document.getElementById("tags");
+// const form = document.querySelector('[data-js="form"]');
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
 
-  const answerText = answerInput.value;
-  const questionText = questionInput.value;
-  const tagsText = tagsInput.value;
-});
+//   // Read the entered data from the input fields
+//   const answerInput = document.getElementById("your-answer");
+//   const questionInput = document.getElementById("your-question");
+//   const tagsInput = document.getElementById("tags");
+
+//   const answerText = answerInput.value;
+//   const questionText = questionInput.value;
+//   const tagsText = tagsInput.value;
+// });

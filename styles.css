@@ -151,13 +151,13 @@ img {
   color: green;
 }
 
-.hidden {
+.card-answer--hidden {
   display: none;
   text-align: center;
 }
 
-.show {
-  display: flexbox;
+.card-answer--active {
+  display: block;
   padding-top: 20px;
 }
 

@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <script src="./index.js" defer></script>
-    <script src="./form.js" defer></script>
   </head>
 
   <body>
@@ -27,7 +26,9 @@
           <p><b>QUESTION NUMBER 1?</b></p>
 
           <button>Show Answer</button>
-          <div class="show hidden" data-js="show">This is the first answer</div>
+          <div class="card-answer--hidden" data-js="show">
+            This is the first answer
+          </div>
 
           <ul class="categories">
             <li>#html</li>
@@ -43,8 +44,9 @@
           <p><b>QUESTION NUMBER 2?</b></p>
 
           <button data-js="button">Show Answer</button>
-          <div class="show hidden" data-js="show">This is the answer</div>
-
+          <div class="card-answer--hidden" data-js="show">
+            This is the SECOND answer
+          </div>
           <ul class="categories">
             <li>#html</li>
             <li>#flexbox</li>
