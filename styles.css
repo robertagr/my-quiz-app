@@ -14,19 +14,6 @@ h1 {
   margin: 0px;
 }
 
-.question1 {
-  border-radius: 10px;
-  border-style: solid;
-  border-color: yellow;
-  color: rgb(4, 0, 255);
-  background-color: rgb(255, 254, 243);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 60px;
-  margin-top: 40px;
-}
-
 button {
   width: 120px;
   height: 60px;
@@ -53,16 +40,37 @@ li {
   border-radius: 5px;
 }
 
-.question2 {
+.question-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-symbols-outlined {
+  align-self: end;
+  padding: 20px;
+}
+
+.question-card__card {
   border-radius: 10px;
   border-style: solid;
-  border-color: rgb(131, 245, 131);
-  background-color: rgb(246, 255, 244);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 60px;
   margin-top: 40px;
+}
+.--card_1 {
+  border-color: yellow;
+  color: rgb(4, 0, 255);
+  background-color: rgb(255, 254, 243);
+}
+.--card_2 {
+  border-color: rgb(131, 245, 131);
+  background-color: rgb(246, 255, 244);
+}
+.--card_3 {
+  border-color: rgb(166, 242, 251);
+  background-color: rgb(244, 255, 255);
 }
 
 div.question2 a,
@@ -70,18 +78,6 @@ div.question1 a,
 div.question3 a {
   margin-left: 90%;
   margin-top: -1%;
-}
-
-.question3 {
-  border-radius: 10px;
-  border-style: solid;
-  border-color: rgb(166, 242, 251);
-  background-color: rgb(244, 255, 255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 60px;
-  margin-top: 40px;
 }
 
 footer {
