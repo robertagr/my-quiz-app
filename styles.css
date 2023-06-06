@@ -160,3 +160,19 @@ img {
   display: flexbox;
   padding-top: 20px;
 }
+
+/* FORM HTML */
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  border-radius: 10px;
+  border-style: solid;
+  margin: 100px;
+  margin-top: 40px;
+
+  border-color: yellow;
+}
