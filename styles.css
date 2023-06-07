@@ -52,6 +52,7 @@ li {
 .material-symbols-outlined {
   align-self: end;
   padding: 20px;
+  color: rgb(151, 28, 151);
 }
 
 .question-card__card {
@@ -236,6 +237,10 @@ textarea {
   border-radius: 10px;
   border-color: rgb(206, 204, 204);
 }
+
+/* textarea::first-letter {
+  text-transform: uppercase;
+} */
 
 #submit {
   width: 20%;
