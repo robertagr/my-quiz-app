@@ -26,6 +26,10 @@ button:active {
   background-color: rgb(240, 240, 210);
 }
 
+button:hover {
+  transform: scale(0.9);
+}
+
 ul.categories {
   list-style-type: none;
   display: flex;
@@ -109,7 +113,7 @@ h3 {
 
 p {
   color: rgb(150, 225, 166);
-  padding: 5px;
+  padding: 2px;
 }
 
 .checkbox {
@@ -159,6 +163,7 @@ img {
 .card-answer--active {
   display: block;
   padding-top: 20px;
+  color: rgb(150, 225, 166);
 }
 
 /* FORM HTML */
@@ -233,7 +238,7 @@ textarea {
 }
 
 #submit {
-  width: 50%;
+  width: 20%;
   margin: 0 auto;
   font-weight: bold;
   font-size: medium;
@@ -243,4 +248,10 @@ textarea {
 
 #submit:active {
   background-color: rgb(254, 228, 255);
+}
+
+div {
+  display: block;
+  color: rgb(150, 225, 166);
+  margin-top: 3%;
 }
